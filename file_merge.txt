@@ -1,0 +1,11 @@
+Git Merge is a command used to combine the changes from two branches into one. It integrates work from different branches into a single unified history without losing progress. For example, you can merge a feature branch into the main branch to include all recent updates.
+
+Preserves History: Keeps the commit history of both branches.
+
+Automatic and Manual: Automatically merges unless there are conflicts.
+Fast-Forward Merge: Moves the branch pointer forward if no diverging changes exist.
+Merge Commit: Creates a special commit to combine histories.
+No Deletion: Branches remain intact after merging.
+Used for Integration: Commonly integrates feature branches into main branches.
+Working of Git Merge
+Using the diagrams below, we will see how git merge works what the repository looks like before the merge and how Git creates a new merge commit to combine histories.
